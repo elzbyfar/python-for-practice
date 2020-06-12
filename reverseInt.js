@@ -5,8 +5,7 @@ const reverse = (x) => {
       str = str.split('-')
       return parseInt(str) * -1
   }
-  if(str > Math.abs(2**31-1)) {
-    console.log('hitting')
+  if (str > Math.abs(2**31-1)) {
     return 0
 }
   return parseInt(str)
