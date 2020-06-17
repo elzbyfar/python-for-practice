@@ -1,5 +1,4 @@
 import pprint
-# TOP 20 GOAL LEADERS OF FIFA WOMEN'S WORLD CUP 2019
 
 player_stats = [
     {
@@ -164,50 +163,22 @@ player_stats = [
     },
 ]
 
-# 1) Print the length of the array.
-    # print(len(player_stats))
+# print(len(player_stats))
 
-# 2) Print a player's stat sheet.
-    # print(player_stats['name'])
+# print(player_stats['name'])
 
-# 3) Print the names of each player.
-    # for i in player_stats:
-    #   print(i['name'])
+# for i in player_stats:
+#   print(i['name'])
 
 
-# 4) Print all the player names that scored 6 goals.
-    # for i in player_stats:
-    #   if i["goals"] == 6:
-    #     print(i['name'])
+# for i in player_stats:
+#   if i["goals"] == 6:
+#     print(i['name'])
 
+# for i in player_stats:
+#   if i["games_played"] == 7:
+#     print(i['name'], i['team'])
 
-# 5) Print all the names and the team or the players that played 7 games.
-    # for i in player_stats:
-    #   if i["games_played"] == 7:
-    #     print(i['name'], i['team'])
-
-
-# 6) Print all the player names that scored 3 goals or less.
-    # for i in player_stats:
-    #   if i['goals'] <= 3:
-    #       print(i['name'])
-
-
-
-
-
-
-
-
-# 6) Write a function called most_minutes_per_game that takes an array as an argument. Find the player who played the most minutes per game. Then return a string in the following format:
-
-# '{player_name} played {minutes_per_game} minutes per game during the 2019 WORLD CUP'
-
-
-# 7) Write a function called most_goals_per_game that takes an array as an argument. Find the player with the most goals per game. Return a string stating the player name the player's goals per game of the player with the most goals per game.
-
-# Format of the response: '{player_name} scored {gpg} goals per game during the 2019 WORLD CUP'
-
-
-# 8) Write a function called most_assists_per_game that takes an array as an argument and returns the player with the most assists per game.
-
+# for i in player_stats:
+#   if i['goals'] <= 3:
+#     print(i['name'])
